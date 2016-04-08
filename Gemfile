@@ -7,6 +7,7 @@ gem 'rails', '>= 5.0.0.beta3', '< 5.1'
 gem 'mysql2', '>= 0.3.18', '< 0.5'
 # Use Puma as the app server
 gem 'puma'
+gem 'active_model_serializers', '0.10.0.rc4'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
@@ -14,7 +15,7 @@ gem 'puma'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '~> 3.5.0.beta3'
 end
 
 group :development do

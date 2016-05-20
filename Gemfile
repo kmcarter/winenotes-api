@@ -15,9 +15,6 @@ gem 'faker'
 # Use ActiveModel has_secure_password
 gem 'bcrypt'
 gem 'jwt'
-gem 'resque'
-gem 'resque-scheduler'
-#gem 'sinatra', github: 'sinatra/sinatra', branch: 'master'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

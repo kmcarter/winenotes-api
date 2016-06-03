@@ -15,6 +15,7 @@ gem 'faker'
 # Use ActiveModel has_secure_password
 gem 'bcrypt'
 gem 'jwt'
+gem 'sidekiq'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
